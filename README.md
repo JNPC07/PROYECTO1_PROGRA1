@@ -10,14 +10,14 @@
 Este programa se desarrolla principalmente con un **SWITCH** con la finalidad de diferenciar entre dos posibles situaciones, donde el primer caso se desarrollará si y solo si existe un único jugador y el segundo en el cual existen dos. <br>
 
 ###### Case 1
-En el caso para un jugador se utiliza un **do while principal** con la finalidad de que este bucle se repita una y otra vez mientras nuestra variable booleana **seguirjugando** sea verdadera. <br>
+En el caso para un jugador se utiliza un **while principal** con la finalidad de que este bucle se repita una y otra vez mientras nuestra variable booleana **seguirjugando** sea verdadera. <br>
 Como se había establecido este caso para un único jugador se utilizó el **random** para escoger del vector anteriormente establecido una palabra aleatoria, la cual después será leída por length y la conformará con "_" <br>
 Dentro del **while principal** se utiliza otro **while** que funcionará únicamente cuando los intentos sean mayores que cero y que la palabra establecida sea diferente a la que el jugador ingresa. En este bucle se define datos de salida como entrada. El único valor de entrada denominada **entrada** es filtrada por un for el cual la convertirá en mayúsculas. <br>
 Se hace uso de otra variable booleana **entradaValida** para evaluar a la palabra o letra a través de un **for**, y si se haya un caracter especial o número se muestra un mensaje de error. <br>
 Si la palabra ingresada es igual a la palabra aleatoria se utiliza **break** para detener el programa, miestras que cuando el jugador no adivina la palabra le sale un mensaje que le informa su derrota, pasa por una muerte instantanea y el dibujo se lo realiza en su totalidad para terminar con un **break**. <br>
 El programa acepta tanto palabras como letras en el momento en que pide ingresar el dato, por lo que si ingresa una letra no ingresa al bucle en el que compara con la palabra total, sino ingresa a un **for** en el cual compara cada una de las letras con la ingresada para verificar si existe alguna coincidencia. Si no halla ninguna coincindecia pierde una vida, la cual será notificada mediante un cout. <br>
 Si la palabra ingresada por el usuario es igual a la palabra que el programa escogió aleatoriamente se ingresa en un **if** el cual mostrará un mensaje de felicitaciones y le asignará un puntaje que puede aumentar con futuras rondas. <br>
-A través de un if se examina la opción de volver a jugar. Si la respuesta es **Y** vuelve a ingresar en el código anteriormente explicado, miestras que si la respuesta es **N** muestran los créditos del juego. <br>
+A través de un if se examina la opción de volver a jugar. Si la respuesta es **Y** vuelve a ingresar en el código anteriormente explicado, mientras que si la respuesta es **N** muestran los créditos del juego. <br>
 
 ###### Case 2
 En este caso se desarrolla el código para dos jugadores. Este código inicia con un **while** en el cual se pedirá que ingrese el número de rondas que desean jugar, sin embargo se debe evaluar que este número sea par y no contengan decimales, el cual será evaluado por un **for** y un **if**. <br>
@@ -33,7 +33,7 @@ Después de dibujar la base, el programa utiliza condicionales `if` para dibujar
 Además, al iniciar una nueva partida se utiliza la instrucción `t.reset()`, la cual reinicia el dibujo anterior y limpia la pantalla gráfica. Esto permite que cada ronda comience desde cero, evitando que se mezclen los dibujos de partidas anteriores.
 
 ###### Conclusión 
-Al finalizar este proyecto se concluye que al integra la lógica tradicional del juego del ahorcado con elementos propios del lenguaje de programación C++ se reforzó el conocimiento previamente adquirido como los bucles, condicionales, funciones y gráficos básicos.
+Al finalizar este proyecto se concluye que al integrar la lógica tradicional del juego del ahorcado con elementos propios del lenguaje de programación C++ se reforzó el conocimiento previamente adquirido como los bucles, condicionales, funciones y gráficos básicos.
 El resultado final es un programa interactivo que permite jugar de manera individual o entre dos participantes, controlando intentos, puntajes y errores de entrada. Por lo tanto, consideramos que este proyecto nos ayudó a comprender mejor cómo transformar una idea de juego en un programa funcional.
 
 
