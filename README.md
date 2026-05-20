@@ -33,7 +33,7 @@ Después de dibujar la base, el programa utiliza condicionales `if` para dibujar
 Además, al iniciar una nueva partida se utiliza la instrucción `t.reset()`, la cual reinicia el dibujo anterior y limpia la pantalla gráfica. Esto permite que cada ronda comience desde cero, evitando que se mezclen los dibujos de partidas anteriores.
 
 ###### Conclusión 
-Al finalizar este proyecto se concluye que al integrar la lógica tradicional del juego del ahorcado con elementos propios del lenguaje de programación C++ se reforzó el conocimiento previamente adquirido como los bucles, condicionales, funciones y gráficos básicos.
+Al finalizar este proyecto se concluye que al integrar la lógica tradicional del juego del ahorcado con elementos propios del lenguaje de programación C++ se reforzó el conocimiento previamente adquirido como los bucles, condicionales, funciones y gráficos básicos. Además, la exploración de nuevas funciones como Random y bibliotecas como CTurtle ayudó a enriquecer significativamente nuestro entorno de aprendizaje. <br>
 El resultado final es un programa interactivo que permite jugar de manera individual o entre dos participantes, controlando intentos, puntajes y errores de entrada. Por lo tanto, consideramos que este proyecto nos ayudó a comprender mejor cómo transformar una idea de juego en un programa funcional.
 
 
