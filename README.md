@@ -84,9 +84,7 @@ flowchart TD
     V --> W[Preguntar si desea jugar otra vez]
     W --> D
 ```
-
 ## Estructura del código
-
 ```mermaid
 flowchart TD
     A[Juego del Ahorcado]
