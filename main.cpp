@@ -576,6 +576,9 @@ void agregarUsuario(vector<tInformacion>& ListaJugadores,string &opcionRegistro)
     int posicionFind;
 
     do {
+        cout << "===========================================================" << endl;
+        cout << "                __° REGISTRO DE USUARIO °__                " << endl;
+        cout << "===========================================================" << endl;
         cout << "Ingrese el nombre para su usuario: ";
         getline(cin, nombreNuevo);
         /*NO DEBE EXISTIR EL MISMO NOMBRE DE USUARIO, O HABRÁ ERRORES AL MOMENTO DE COMPARAR PUNTAJES Y NOMBRES*/
