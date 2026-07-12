@@ -460,6 +460,7 @@ void ejecutarModoDosJugadores(Turtle &t) {
             system("cls");
 
             palabraAdivinada = string(palabra.length(), '_');
+            cout << "Jugador " << (turnoJugadores % 2 == 0 ? "1" : "2") << ": " <<endl;
             cout <<"- ADIVINA LA PALABRA DE TU AMIGO! -" <<endl;
             t.reset();
             
@@ -618,7 +619,9 @@ void iniciarSesion(vector<tInformacion>& ListaJugadores, bool encontrado, int &p
     
     string nombre;
     string contrasena;
-
+    cout << "===========================================================" << endl;
+    cout << "              BIENVENID@ AL JUEGO DEL AHORCADO             " << endl;
+    cout << "===========================================================" << endl;
     cout << "Ingrese el nombre de su usuario: ";
     cin >> nombre;
     
@@ -640,6 +643,7 @@ void iniciarSesion(vector<tInformacion>& ListaJugadores, bool encontrado, int &p
         }
 
         if (opcionRegistro == "Y") {
+            system("cls");
             agregarUsuario(ListaJugadores, opcionRegistro);
             existeUsuario(ListaJugadores, nombre, posicionFind);
         }
