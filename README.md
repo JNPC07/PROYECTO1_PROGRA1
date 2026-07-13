@@ -7,7 +7,7 @@
 </p>
 
 ## Descripción 
-Este proyecto surguió a través del deseo de replicar uno de los juegos embleáticos de los niños ecuatorianos llamado **Ahorcado**. Con el lenguaje de programación C++ se pudo implementar la lógica que hiciera posible que este juego se vea plasamado en una pantalla. 
+Este proyecto surgió a través del deseo de replicar uno de los juegos embleáticos de los niños ecuatorianos llamado **Ahorcado**. Con el lenguaje de programación C++ se pudo implementar la lógica que hiciera posible que este juego se vea plasamado en una pantalla. 
 El programa incluye:
 1. Modo de un jugador.
 2. Modo de dos jugadores.
