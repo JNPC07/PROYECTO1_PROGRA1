@@ -20,9 +20,9 @@ El programa incluye:
 
 ## Funcionalidad
 
-- 🎯 Selección de modo de juego:  Se da la opción de elegir al usuario el nivel de dificultad al que se quiere enfrenatar. Dependiendo de su elección se abrirá el txt palabras_facil, palabras_medio o palabras_dificil.  
+- 🎯 Selección de modo de juego:  Se da la opción de elegir al usuario el nivel de dificultad al que se quiere enfrentar. Dependiendo de su elección se abrirá el txt palabras_facil, palabras_medio o palabras_dificil.  
 <img src="imagenes/dificultad.png" width="600">
-- 👤 Registro e inicio de sesión de usuarios: Se implememtó el registro e inicio de sesión con la finalidad de mantener un historial de los puntajes de nuestros usuarios e ir publicando a nuestros mejores jugadores.
+- 👤 Registro e inicio de sesión de usuarios: Se implementó el registro e inicio de sesión con la finalidad de mantener un historial de los puntajes de nuestros usuarios e ir publicando a nuestros mejores jugadores.
 <img src="imagenes/inicioSesion.png" width="600">
 - 🔐Validación de usuario y contraseña: Se busca dentro de nuestro cvs "listaJugadores" la existencia de ese usuario y contraseña. Si no existe se da la opción de Registro.
 <img src="imagenes/existejugador.png" width="600">
